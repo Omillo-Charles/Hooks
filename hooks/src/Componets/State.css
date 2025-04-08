@@ -1,0 +1,35 @@
+div.useState{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+}
+
+div.useState div{
+    margin: 1.2rem;
+}
+
+div.useState i{
+    width: 2.4rem;
+    padding: 0.4rem;
+    height: 2.4rem;
+    background-color: maroon;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.useState p{
+    border: 2px solid maroon;
+    padding: 1rem 3rem;
+    border-radius: 8px;
+    box-shadow: 0 0 4px red;
+}
