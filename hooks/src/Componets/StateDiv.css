@@ -1,7 +1,43 @@
 div.StateDiv{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'left right';
+    overflow: hidden;
+}
+
+div.StateDiv div.scrollable{
+    overflow: auto;
+}
+
+div.left{
+    grid-area: left;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    flex-wrap: wrap;
+    box-shadow: 0 0 8px black;
+    background-color: aliceblue;
 }
+
+div.left div{
+    width: 8rem;
+    padding: 1.6rem;
+    border: 2px solid maroon;
+    margin: 1.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 0 4px red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s ease;
+}
+
+div.left div:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 12px red;
+}
+

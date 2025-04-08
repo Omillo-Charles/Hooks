@@ -1,10 +1,10 @@
 import React from 'react'
-import StateDiv from './Componets/StateDiv'
+import ToDo from './Componets/ToDo'
 
 const App = () => {
   return (
     <div>
-      <StateDiv />
+      <ToDo />
     </div>
   )
 }
